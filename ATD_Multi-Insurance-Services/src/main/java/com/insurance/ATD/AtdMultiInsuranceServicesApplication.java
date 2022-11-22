@@ -15,6 +15,7 @@ public class AtdMultiInsuranceServicesApplication extends SpringBootServletIniti
 
 	public static void main(String[] args) {
 		SpringApplication.run(AtdMultiInsuranceServicesApplication.class, args);
+		
 	}
 
 }
