@@ -6,7 +6,6 @@ import javax.persistence.*;
 @Entity
 @Table(name="lifeInsurenceBean")
 public class LifeBean {
-	
 	@Id
 	@Column(name="Policy Number")
 	private int policyNumber;
@@ -49,12 +48,6 @@ public class LifeBean {
 	public void setTenure(int tenure) {
 		this.tenure = tenure;
 	}
-	
-	
-	
-	
-	
-	
 	
 	
 
