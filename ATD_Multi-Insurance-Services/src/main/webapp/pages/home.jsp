@@ -8,5 +8,6 @@
 </head>
 <body>
 
+Welcome to insurance project
 </body>
 </html>
