@@ -5,19 +5,26 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
-@Table(name="LifeBean")
+
+@Table(name="lifebean")
+
 public class LifeBean {
 	@Id
 	@Column(name="policy Number")
 	private int policyNumber;
 	@Column(name="full Name")
 	private String fullName;
+
 	@Column(name="meterial")
 	private String meterial;
-	@Column(name="policy Amount")
+	@Column(name="Policy Type")
+	private String policyType;
+	@Column(name="Policy Amount")
 	private int policyAmount;
 	@Column(name="tenure")
 	private int tenure;
+	@Column(name="Percentage")
+	private int percentage;
 	
 	public int getPolicyNumber() {
 		return policyNumber;
@@ -31,11 +38,11 @@ public class LifeBean {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-	public String getMeterial() {
-		return meterial;
+	public String getpolicyType() {
+		return policyType;
 	}
-	public void setMeterial(String meterial) {
-		this.meterial = meterial;
+	public void setpolicyType(String policyType) {
+		this.policyType = policyType;
 	}
 	public int getPolicyAmount() {
 		return policyAmount;
@@ -49,7 +56,12 @@ public class LifeBean {
 	public void setTenure(int tenure) {
 		this.tenure = tenure;
 	}
-	
+	public int getPercentage() {
+		return percentage;
+	}
+	public void setPercentage(int percentage) {
+		this.percentage = percentage;
+	}
 	
 
 }
