@@ -16,8 +16,17 @@ public class Firebean {
 	private String Materials;
 	@Column(name="Amount")
 	private int amount;
+	public int getPercentage() {
+		return percentage;
+	}
+	public void setPercentage(int percentage) {
+		this.percentage = percentage;
+	}
 	@Column(name="Tenure")
 	private int Tenure;
+	@Column(name="percentage")
+	private int percentage;
+	
 	public int getPolicynumber() {
 		return policynumber;
 	}
