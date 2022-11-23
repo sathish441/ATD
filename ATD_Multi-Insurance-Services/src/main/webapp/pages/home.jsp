@@ -8,27 +8,39 @@
 </head>
 <body>
 
-Welcome to insurance project
+<h2>Welcome to ATD Insurance- Home for multiple Insurance Services</h2>
 
-<table>
-<tr><td>
-<button>Fire Insurance</button>
-<button>Life Insurance</button>
-<button>Marine Insurance</button>
-<button>Child Insurance</button>
-<button>Pet Insurance</button>
-<button>Electric Insurance</button>
-<button>Vehicle Insurance</button>
-<button>Cyber Attack Insurance</button>
-<button>Property Insurance</button>
-<button>Home Insurance</button>
-<button>Education Insurance</button>
-<button>Mobile Insurance</button>
-<button>Gold Insurance</button>
-<button>Hotel Insurance</button>
-<button>Crop Insurance</button>
-</td></tr>
+<table align = "center">
+<tr><td>For Fire related Stocks:</td>
+<td><button> <a href="FireInsurance">Fire Insurance</a></button></td></tr>
+<tr><td>Because Life Matters:</td>
+<td><button>Life Insurance</button></td></tr>
+<td><tr><td>For flood related Stock:</td>
+<td><button>Marine Insurance</button></td></tr>
+<tr><td>Children are precious:</td>
+<td><button>Child Insurance</button></td></tr>
+<tr><td>For those lovely pets:</td>
+<td><button>Pet Insurance</button></td></tr>
+<tr><td>For shocking electric stock:</td>
+<td><button>Electric Insurance</button></td></tr>
+<tr><td>For those lovely vehicles:</td>
+<td><button>Vehicle Insurance</button></td></tr>
+<tr><td>For protecting your precious data:</td>
+<td><button>Cyber-Attack Insurance</button></td></tr>
+<tr><td>For protecting your property:</td>
+<td><button>Property Insurance</button></td></tr>
+<tr><td>For protecting your Home:</td>
+<td><button>Home Insurance</button></td></tr>
+<tr><td>For safeguarding education:</td>
+<td><button>Education Insurance</button></td></tr>
+<tr><td>For protecting your mobile:</td>
+<td><button>Mobile Insurance</button></td></tr>
+<tr><td>For protecting your gold:</td>
+<td><button>Gold Insurance</button></td></tr>
+<tr><td>For protecting your hotel:</td>
+<td><button>Hotel Insurance</button></td></tr>
+<tr><td>For protecting your crop:</td>
+<td><button>Crop Insurance</button></td></tr>
 </table>
-
 </body>
 </html>
