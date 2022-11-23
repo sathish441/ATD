@@ -4,14 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Home Page</title>
 </head>
 <body>
-
-Welcome to insurance project
-
-<table>
-<tr><td>
 <button>Fire Insurance</button>
 <button>Life Insurance</button>
 <button>Marine Insurance</button>
@@ -27,8 +22,6 @@ Welcome to insurance project
 <button>Gold Insurance</button>
 <button>Hotel Insurance</button>
 <button>Crop Insurance</button>
-</td></tr>
-</table>
 
 </body>
 </html>
