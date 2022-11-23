@@ -6,7 +6,6 @@ import javax.persistence.*;
 @Entity
 @Table(name="lifeinsurancebean")
 public class LifeBean {
-	
 	@Id
 	@Column(name="Policy Number")
 	private int policyNumber;
@@ -57,12 +56,6 @@ public class LifeBean {
 	public void setPercentage(int percentage) {
 		this.percentage = percentage;
 	}
-	
-	
-	
-	
-	
-	
 	
 
 }
