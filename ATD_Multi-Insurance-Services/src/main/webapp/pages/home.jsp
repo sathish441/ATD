@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Home</title>
 </head>
 <body>
+
 
 <h2>Welcome to ATD Insurance- Home for multiple Insurance Services</h2>
 
@@ -42,5 +43,8 @@
 <tr><td>For protecting your crop:</td>
 <td><button>Crop Insurance</button></td></tr>
 </table>
+
+
+
 </body>
 </html>
