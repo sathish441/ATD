@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name="lifeinsurancebean")
+@Table(name="lifebean")
 public class LifeBean {
 	@Id
 	@Column(name="Policy Number")
