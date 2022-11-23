@@ -18,6 +18,16 @@ private String Meterial;
 private double Amount;
     @Column (name="Tenure")
  private int Tenure;
+@Column(name="percentage")
+private int percentage;
+
+public int getPercentage() {
+	return percentage;
+}
+
+public void setPercentage(int percentage) {
+	this.percentage = percentage;
+}
 
 public int getPolicyNumber() {
 	return PolicyNumber;

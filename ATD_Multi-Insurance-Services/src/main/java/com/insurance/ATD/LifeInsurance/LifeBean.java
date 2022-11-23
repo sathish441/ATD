@@ -1,21 +1,22 @@
 package com.insurance.ATD.LifeInsurance;
 
-import javax.persistence.*;
-
-
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 @Entity
-@Table(name="lifeInsurenceBean")
+@Table(name="LifeBean")
 public class LifeBean {
 	@Id
-	@Column(name="Policy Number")
+	@Column(name="policy Number")
 	private int policyNumber;
-	@Column(name="Full Name")
+	@Column(name="full Name")
 	private String fullName;
-	@Column(name="Meterial")
+	@Column(name="meterial")
 	private String meterial;
-	@Column(name="Policy Amount")
+	@Column(name="policy Amount")
 	private int policyAmount;
-	@Column(name="Tenure")
+	@Column(name="tenure")
 	private int tenure;
 	
 	public int getPolicyNumber() {
