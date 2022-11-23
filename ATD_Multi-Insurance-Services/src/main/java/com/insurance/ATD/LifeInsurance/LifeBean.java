@@ -4,19 +4,21 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name="lifeInsurenceBean")
+@Table(name="lifeinsurancebean")
 public class LifeBean {
 	@Id
 	@Column(name="Policy Number")
 	private int policyNumber;
 	@Column(name="Full Name")
 	private String fullName;
-	@Column(name="Meterial")
-	private String meterial;
+	@Column(name="Policy Type")
+	private String policyType;
 	@Column(name="Policy Amount")
 	private int policyAmount;
 	@Column(name="Tenure")
 	private int tenure;
+	@Column(name="Percentage")
+	private int percentage;
 	
 	public int getPolicyNumber() {
 		return policyNumber;
@@ -30,11 +32,11 @@ public class LifeBean {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-	public String getMeterial() {
-		return meterial;
+	public String getpolicyType() {
+		return policyType;
 	}
-	public void setMeterial(String meterial) {
-		this.meterial = meterial;
+	public void setpolicyType(String policyType) {
+		this.policyType = policyType;
 	}
 	public int getPolicyAmount() {
 		return policyAmount;
@@ -48,7 +50,12 @@ public class LifeBean {
 	public void setTenure(int tenure) {
 		this.tenure = tenure;
 	}
-	
+	public int getPercentage() {
+		return percentage;
+	}
+	public void setPercentage(int percentage) {
+		this.percentage = percentage;
+	}
 	
 
 }

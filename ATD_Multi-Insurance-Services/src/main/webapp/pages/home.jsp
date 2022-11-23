@@ -4,12 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Home</title>
 </head>
 <body>
 
-Welcome to insurance project
 
+<h1 align="center">Welcome to Home</h1>
+Welcome to insurance project
 <table>
 <tr><td>
 <button>Fire Insurance</button>
@@ -29,6 +30,7 @@ Welcome to insurance project
 <button>Crop Insurance</button>
 </td></tr>
 </table>
+
 
 </body>
 </html>
