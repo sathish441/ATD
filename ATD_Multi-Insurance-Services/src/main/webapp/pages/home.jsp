@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<<<<<<< HEAD
+
 <title>ATD Multi-Insurance</title>
-=======
+
 <title>Home</title>
->>>>>>> branch 'master' of https://github.com/Siva8125/ATD.git
+
 </head>
 <body>
 

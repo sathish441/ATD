@@ -7,12 +7,25 @@
 <meta charset="ISO-8859-1">
 <title>FireInsurance</title>
 </head>
+<%
+int i;
+int j;
+int row = 4;
+for(i=0;i<=row;i++){
+	for(j=0;j<=i;j++){
+   out.print("-*- ");
+%>
+<% 
+	}
+	//out.println();
+out.println("<br>");
+	
+}
+%>
 <body>
 <h2>Select the fields from the following</h2>
-<form action="firecalculations" method = "get">
-<%
-      Firebean fb = new Firebean();
-%>
+<form action="fireinputs" method = "post">
+
 Materials Name : <input type = "text" name = "Materials">
       <label for="Amount">Policy Amount</label>
       <select name="Amount" id="pa">
@@ -41,7 +54,21 @@ Materials Name : <input type = "text" name = "Materials">
         <option value="7">7</option>
       </select>
       <input type="submit" value="Submit" />
-      <button><a href = "Firecalculations">Calculate my Insurance</a></button>
 </form>
+<form action="firedetails" method = "get">
+Please enter the unique id number sent to your registered number
+My UID (as sent in mail): ATD- <input type = "text" name = "PolicyNumber">
+<input type="submit" value="Submit" />
+</form>
+
+<%
+ int a,b,rows=4;
+for(i=rows;i>=0;i--){
+		for(j=0;j<=i;j++){
+		out.print("-*- ");
+	}out.println("<br>");
+}
+%>
+
 </body>
 </html>
