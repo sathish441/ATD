@@ -4,11 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<<<<<<< HEAD
-<title>ATD Multi-Insurance</title>
-=======
-<title>Home</title>
->>>>>>> branch 'master' of https://github.com/Siva8125/ATD.git
 </head>
 <body>
 
@@ -35,7 +30,7 @@
 <tr><td>For protecting your property:</td>
 <td><button>Property Insurance</button></td></tr>
 <tr><td>For protecting your Home:</td>
-<td><button><a href="homeinsurancehome">Home Insurance</button></td></tr>
+<td><button><a href="customers">Home Insurance</button></td></tr>
 <tr><td>For safeguarding education:</td>
 <td><button><a href="EducationInsurance">Education Insurance</a></button></td></tr>
 <tr><td>For protecting your mobile:</td>
