@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<table>
-<tr>
-<td><button><a href="customers">Enter Details</button></td></tr>
-</table>
+<h4> ${homebean}</h4>
 </body>
 </html>
