@@ -35,7 +35,7 @@
 <tr><td>For protecting your property:</td>
 <td><button>Property Insurance</button></td></tr>
 <tr><td>For protecting your Home:</td>
-<td><button>Home Insurance</button></td></tr>
+<td><button><a href="homeinsurancehome">Home Insurance</button></td></tr>
 <tr><td>For safeguarding education:</td>
 <td><button>Education Insurance</button></td></tr>
 <tr><td>For protecting your mobile:</td>
