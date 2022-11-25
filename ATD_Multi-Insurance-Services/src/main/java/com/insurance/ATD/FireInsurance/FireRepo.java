@@ -1,7 +1,7 @@
 package com.insurance.ATD.FireInsurance;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface FireRepo extends JpaRepository<Firebean, Integer>{
+public interface FireRepo extends CrudRepository<Firebean, Integer>{
 
 }
