@@ -7,8 +7,14 @@
 <title>Life Insurance</title>
 </head>
 <body>
-<h1>ATD Insurances</h1>
-<h1 align="center" color="red">Welcome to Life Insurance</h1>
+<h1 style= "color:red">ATD Insurances</h1>
+<h1 align="center" style= "color:green">Welcome to Life Insurance</h1>
+
+
+
+
+
+
 
 </body>
 </html>
