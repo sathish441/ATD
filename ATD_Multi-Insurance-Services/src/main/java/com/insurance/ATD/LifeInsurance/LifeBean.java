@@ -10,28 +10,23 @@ import javax.persistence.Table;
 
 public class LifeBean {
 	@Id
-	@Column(name="policy Number")
-	private int policyNumber;
+	
 	@Column(name="full Name")
 	private String fullName;
-
-	@Column(name="meterial")
-	private String meterial;
-	@Column(name="Policy Type")
+	
+	
+	@Column(name="policy Type")
 	private String policyType;
-	@Column(name="Policy Amount")
+	@Column(name="policy Amount")
 	private int policyAmount;
 	@Column(name="tenure")
 	private int tenure;
-	@Column(name="Percentage")
+	@Column(name="percentage")
 	private int percentage;
 	
-	public int getPolicyNumber() {
-		return policyNumber;
-	}
-	public void setPolicyNumber(int policyNumber) {
-		this.policyNumber = policyNumber;
-	}
+	
+	
+	
 	public String getFullName() {
 		return fullName;
 	}
