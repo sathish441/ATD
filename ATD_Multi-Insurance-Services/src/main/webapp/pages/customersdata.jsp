@@ -8,8 +8,5 @@
 </head>
 <body>
 <h4> ${homebean}</h4>
-<tr>
-<td>
-<button><a href="retrieve">Search Costumers</a></button></td></tr>
 </body>
 </html>
