@@ -7,12 +7,19 @@
 <title>Life Insurance</title>
 </head>
 <body>
+<div style="background-image: url('https://assets.thehansindia.com/h-upload/2022/05/27/1294570-insurance.webp');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;" >
+  
 <h1 style= "color:red">ATD Insurances</h1>
+<form align="center" action="" method="">
 <h1 align="center" style= "color:green">Welcome to Life Insurance</h1>
 <h2 align="center" style="color:purple">Select your Plane</h2>
+<h3 align="center">Type of Insurance:</h3>
 
-<form align="center" action="" method="">
-<tr><td><h3 align="center">Type of Insurance:</h3>
 <select type = "select" id="Policy">
 <option value="Select">Policy Type</option>
 <option value="Whole Life Cover - 99 Years">Whole Life Cover - 99 Years</option>
@@ -23,10 +30,9 @@
 <option value="Increasing Cover Option">Increasing Cover Option</option>
 <option value="Special Exit Value">Special Exit Value</option>
 <option value="Steady Income Benefit2">Steady Income Benefit2</option>
-</td></tr>
 </select>
-<input type="submit" value="Submit" />
-      <button><a href = "LifeSelect">Go With This Policy</a></button>
+<input type="submit" value="View Policy Details" />
+ 
 
 
 <h2 align="left" style="color:blue"> Whole Life Cover - 99 Years </h2><br><h4 align="left">Option to get cover for a limited period or for your entire<br> lifetime of up to 99 years.</h4>
@@ -41,6 +47,7 @@
 
 
 </form>
+</div>
 </body>
 </html>
 

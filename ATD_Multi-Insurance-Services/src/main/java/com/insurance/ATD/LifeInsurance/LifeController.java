@@ -13,4 +13,5 @@ public class LifeController {
 	public String LifeInsurance() {
 		return "LifeOptions";
 	}
+	
 }
