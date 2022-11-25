@@ -17,7 +17,7 @@
 <tr><td>For Fire related Stocks:</td>
 <td><button> <a href="FireInsurance">Fire Insurance</a></button></td></tr>
 <tr><td>Because Life Matters:</td>
-<td><button>Life Insurance</button></td></tr>
+<td><button><a href="LifeInsurance">Life Insurance</a></button></td></tr>
 <td><tr><td>For flood related Stock:</td>
 <td><button>Marine Insurance</button></td></tr>
 <tr><td>Children are precious:</td>
