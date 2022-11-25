@@ -29,7 +29,7 @@
 <tr><td>For shocking electric stock:</td>
 <td><button>Electric Insurance</button></td></tr>
 <tr><td>For those lovely vehicles:</td>
-<td><button>Vehicle Insurance</button></td></tr>
+<td><button><a href="VehicleInsurance">Vehicle Insurance</a></button></td></tr>
 <tr><td>For protecting your precious data:</td>
 <td><button>Cyber-Attack Insurance</button></td></tr>
 <tr><td>For protecting your property:</td>
