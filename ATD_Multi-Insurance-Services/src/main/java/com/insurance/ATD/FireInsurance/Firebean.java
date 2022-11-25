@@ -51,5 +51,12 @@ public class Firebean {
 		public void setPercentage(int percentage) {
 			this.percentage = percentage;
 		}
+		@Override
+		public String toString() {
+			return " Your Fire Insurance Policy Details \"<br>\"[Policynumber=" + policynumber +"<br>"+ ", Materials=" + Materials +"<br>"+ ", Amount=" + amount
+					+"<br>"+ ", Tenure=" + Tenure +"<br>"+ ", Percentage=" + percentage + "]"+"<br>"+"<br>";
+		}
+		
+		
 	}
 	
