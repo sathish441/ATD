@@ -41,7 +41,7 @@
 <tr><td>For protecting your gold:</td>
 <td><button>Gold Insurance</button></td></tr>
 <tr><td>For protecting your hotel:</td>
-<td><button><a href="Hotel">>Hotel Insurance</button></td></tr>
+<td><button>Hotel Insurance</button></td></tr>
 <tr><td>For protecting your crop:</td>
 <td><button>Crop Insurance</button></td></tr>
 
