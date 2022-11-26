@@ -15,12 +15,12 @@
   background-size: cover;" >
   
 <h1 style= "color:red">ATD Insurances</h1>
-<form align="center" action="" method="">
+<form align="center" action="optionsPage">
 <h1 align="center" style= "color:green">Welcome to Life Insurance</h1>
 <h2 align="center" style="color:purple">Select your Plane</h2>
 <h3 align="center">Type of Insurance:</h3>
 
-<select type = "select" id="Policy">
+<select type = "select">
 <option value="Select">Policy Type</option>
 <option value="Whole Life Cover - 99 Years">Whole Life Cover - 99 Years</option>
 <option value="Return of Total Premiums">Return of Total Premiums</option>
@@ -32,7 +32,7 @@
 <option value="Steady Income Benefit2">Steady Income Benefit2</option>
 </select>
 <input type="submit" value="View Policy Details" />
- 
+ <% %>
 
 
 <h2 align="left" style="color:blue"> Whole Life Cover - 99 Years </h2><br><h4 align="left">Option to get cover for a limited period or for your entire<br> lifetime of up to 99 years.</h4>

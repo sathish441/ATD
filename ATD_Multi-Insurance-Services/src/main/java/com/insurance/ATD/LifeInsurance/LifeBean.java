@@ -11,10 +11,6 @@ import javax.persistence.Table;
 public class LifeBean {
 	@Id
 	
-	@Column(name="full Name")
-	private String fullName;
-	
-	
 	@Column(name="policy Type")
 	private String policyType;
 	@Column(name="policy Amount")
@@ -25,14 +21,7 @@ public class LifeBean {
 	private int percentage;
 	
 	
-	
-	
-	public String getFullName() {
-		return fullName;
-	}
-	public void setFullName(String fullName) {
-		this.fullName = fullName;
-	}
+
 	public String getpolicyType() {
 		return policyType;
 	}
