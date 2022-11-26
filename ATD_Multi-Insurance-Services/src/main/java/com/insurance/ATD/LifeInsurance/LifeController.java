@@ -17,5 +17,8 @@ public class LifeController {
 	public String OptionsPage() {
 		return "WholeLifeCover99Years";
 	}
-	
+	@RequestMapping(value="userDetails")
+	public String UserDetails() {
+		return "LifePolicyHolderDetails";
+	}
 }

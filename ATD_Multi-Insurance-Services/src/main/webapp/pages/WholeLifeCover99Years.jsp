@@ -14,7 +14,7 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;" >
 <h1 style= "color:red">ATD Insurances</h1>
-<form align="center" action="">
+<form align="center" action="userDetails">
 <h2 align="center">Welcome to Policy </h2>
 <h3 align="center" style="color:blue">Please search policy tenure</h3>
 <select type = "select">
@@ -24,6 +24,8 @@
 <option value="Life cover for 2 Years">Life cover for 2 Years</option>
 <option value="Life cover for 1 Year">Life cover for 1 Year</option>
 </select>
+
+
 <br><br>
 <select type = "select">
 <option value="Select">Policy Amount Rs</option>
@@ -61,7 +63,7 @@
 
 
 <br><br>
-<input type="submit" value="View Policy Details" />
+<input type="submit" value="Take Policy" />
 
 
 
