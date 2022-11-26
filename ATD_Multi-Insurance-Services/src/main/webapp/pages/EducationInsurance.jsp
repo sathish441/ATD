@@ -190,85 +190,93 @@
 </style>
 </head>
 <body>
-	<form method="post" action="Eduinsurdetails" id="frmwww">
-		<div class="aspNetHidden">
-			<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
-			<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
-				value="UShbO8Pwbno0ZUEHuMmx/OHvNnsWwx6VReUvnaK1yw46s8Ku8/FOunwPzHt8/1e6wCkXgBaubVtuhi6ba2dhFN1fC2E=" />
-		</div>
 
-		<script type="text/javascript">
-			//<![CDATA[
-			var theForm = document.forms['frmwww'];
-			if (!theForm) {
-				theForm = document.frmwww;
+
+
+
+
+
+
+
+
+	<div class="aspNetHidden">
+		<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+		<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+			value="UShbO8Pwbno0ZUEHuMmx/OHvNnsWwx6VReUvnaK1yw46s8Ku8/FOunwPzHt8/1e6wCkXgBaubVtuhi6ba2dhFN1fC2E=" />
+	</div>
+
+	<script type="text/javascript">
+		//<![CDATA[
+		var theForm = document.forms['frmwww'];
+		if (!theForm) {
+			theForm = document.frmwww;
+		}
+		function __doPostBack(eventTarget, eventArgument) {
+			if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+				theForm.__EVENTTARGET.value = eventTarget;
+				theForm.__EVENTARGUMENT.value = eventArgument;
+				theForm.submit();
 			}
-			function __doPostBack(eventTarget, eventArgument) {
-				if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-					theForm.__EVENTTARGET.value = eventTarget;
-					theForm.__EVENTARGUMENT.value = eventArgument;
-					theForm.submit();
-				}
-			}
-			//]]>
-		</script>
+		}
+		//]]>
+	</script>
 
 
-		<script src="/js/WebResource1.js" type="text/javascript"></script>
+	<script src="/js/WebResource1.js" type="text/javascript"></script>
 
 
-		<script src="/js/WebResource2.js" type="text/javascript"></script>
-		<div class="aspNetHidden">
+	<script src="/js/WebResource2.js" type="text/javascript"></script>
+	<div class="aspNetHidden">
 
-			<input type="hidden" name="__VIEWSTATEGENERATOR"
-				id="__VIEWSTATEGENERATOR" value="76CF90C0" /> <input type="hidden"
-				name="__EVENTTARGET" id="__EVENTTARGET" value="" /> <input
-				type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-			<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
-				value="S6YUIVCq2sf1nz5tKpk2wjF6JgcNv+5IzaLF0DN42isxs8AMYsVWgDocErNWN0BzG9KLjuxIpNx/6ij1Cc9hvw6B+hiTKpATZoE7y+x2aTfmDH1m8ylpeT+xEWewfXHoBRJHYNmeNuM4Pk0kZmQSCOUKfk5gR0JGm2NMuMbE+dBGbqBqblSFiz/fBs21CwNCDP+eNKzMxVwbpFItWWv0MDtO6N0SI+iDfzz7qTb0Lxl+pbP93w4iNYqjkTKvo2ZTNfuPJDpImbKxlJzMRLDifjtgFuaZ0BQaaweuJTI/0yQGNZ0+3lESC5bx6JaUeasZwmtmfcktccCd4un1AcC5akkdJn0b8dpk8hcB2l5P+83q4tINdnzoUKfoxcSWRatLHdhCbu7Fw2N/0BS7DrBHpUP8HJWb34ZX5uh1JFbhyXDZ3FulszBidC98QXQUeRgqx9Uxbo3Bhbm1t6EeetxUOxrH6J8SoLpuLuiUMsRhvDmrsXv1tEbxUz44CslnKnsY/LyUrIciFCl0Y74TLHOQrAz4/kUm/5G4JLGwoZnZel6xuYZHZzjbAtOSWgyi0KJG3Nb5TfWgeDFJwEWVb+vlLt2x6eQZnSZ2GNMw0QN4FqojbgZRoB2Pa2heNxfoFlh7/6cPOLjl5g8KMow0QXzX1yETwQdDTnBnKN9CZ6dGMXaWjyEvl2sNq825arOmX1HOAeKAvqpfi2r5d/OgMVX2GFXR9Ii7+wV0Ztt9ugm9ccfyEut49LRvPZL6VSTVIyK/GE3KuIlEPgt3IRdAm+Qyit91PHzErrczCCiRjdByH7zrQzc01dGm6FqLbgNHFgJxYxTVhUYoHbSN9TLXCwOrCg8H1hcxWyiC5Ya1jglKqvNLIIld0jyW32zHROmjgRQkNcN37gXucrY1db2Q8gmaw5CaTR/H1KQM95ZzGCMpWjUDlRvn/DQM7H/J6T65myoodJYbZKne4AiYIccV04mwOGfZUfw3Tk1hIdz4QW9VkcHazPqnvX+kf0BtZ4exmGD0cWISAUct7DDweSHzCrRPLmFkiqYpwOCAaAD2pDUbCrXMFCLdMeaqCxjXgbw/D3gYBdWQIeC1jK6xh2gGiCq3Kfa9R5FZ4aPmqz2A8ebm2lTAuoWVa51rCDSxb7Oshr8hH64TDZa+p2/vyF3D0grsRdfsMth6McKRhxuvgjb7Y0qPNqeMhFvwDv/wpagnYOU3VjaP+1DyXmTkFm9yqESw9WBjDbIWZGi1tfrfiyvL2JaQWJIJ2DbMPhM6kumXWPWtEDktJrMQ3OVVlMij8WTh6IRbZj1skKAw9CEDjKg/+VWmafG67TTjjE1mrgsjjUEw8rWqe+eOMiyx7sVkd1VmhBChBpnJxWsoV/FAhLVY07Rvky/P" />
-		</div>
+		<input type="hidden" name="__VIEWSTATEGENERATOR"
+			id="__VIEWSTATEGENERATOR" value="76CF90C0" /> <input type="hidden"
+			name="__EVENTTARGET" id="__EVENTTARGET" value="" /> <input
+			type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+		<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
+			value="S6YUIVCq2sf1nz5tKpk2wjF6JgcNv+5IzaLF0DN42isxs8AMYsVWgDocErNWN0BzG9KLjuxIpNx/6ij1Cc9hvw6B+hiTKpATZoE7y+x2aTfmDH1m8ylpeT+xEWewfXHoBRJHYNmeNuM4Pk0kZmQSCOUKfk5gR0JGm2NMuMbE+dBGbqBqblSFiz/fBs21CwNCDP+eNKzMxVwbpFItWWv0MDtO6N0SI+iDfzz7qTb0Lxl+pbP93w4iNYqjkTKvo2ZTNfuPJDpImbKxlJzMRLDifjtgFuaZ0BQaaweuJTI/0yQGNZ0+3lESC5bx6JaUeasZwmtmfcktccCd4un1AcC5akkdJn0b8dpk8hcB2l5P+83q4tINdnzoUKfoxcSWRatLHdhCbu7Fw2N/0BS7DrBHpUP8HJWb34ZX5uh1JFbhyXDZ3FulszBidC98QXQUeRgqx9Uxbo3Bhbm1t6EeetxUOxrH6J8SoLpuLuiUMsRhvDmrsXv1tEbxUz44CslnKnsY/LyUrIciFCl0Y74TLHOQrAz4/kUm/5G4JLGwoZnZel6xuYZHZzjbAtOSWgyi0KJG3Nb5TfWgeDFJwEWVb+vlLt2x6eQZnSZ2GNMw0QN4FqojbgZRoB2Pa2heNxfoFlh7/6cPOLjl5g8KMow0QXzX1yETwQdDTnBnKN9CZ6dGMXaWjyEvl2sNq825arOmX1HOAeKAvqpfi2r5d/OgMVX2GFXR9Ii7+wV0Ztt9ugm9ccfyEut49LRvPZL6VSTVIyK/GE3KuIlEPgt3IRdAm+Qyit91PHzErrczCCiRjdByH7zrQzc01dGm6FqLbgNHFgJxYxTVhUYoHbSN9TLXCwOrCg8H1hcxWyiC5Ya1jglKqvNLIIld0jyW32zHROmjgRQkNcN37gXucrY1db2Q8gmaw5CaTR/H1KQM95ZzGCMpWjUDlRvn/DQM7H/J6T65myoodJYbZKne4AiYIccV04mwOGfZUfw3Tk1hIdz4QW9VkcHazPqnvX+kf0BtZ4exmGD0cWISAUct7DDweSHzCrRPLmFkiqYpwOCAaAD2pDUbCrXMFCLdMeaqCxjXgbw/D3gYBdWQIeC1jK6xh2gGiCq3Kfa9R5FZ4aPmqz2A8ebm2lTAuoWVa51rCDSxb7Oshr8hH64TDZa+p2/vyF3D0grsRdfsMth6McKRhxuvgjb7Y0qPNqeMhFvwDv/wpagnYOU3VjaP+1DyXmTkFm9yqESw9WBjDbIWZGi1tfrfiyvL2JaQWJIJ2DbMPhM6kumXWPWtEDktJrMQ3OVVlMij8WTh6IRbZj1skKAw9CEDjKg/+VWmafG67TTjjE1mrgsjjUEw8rWqe+eOMiyx7sVkd1VmhBChBpnJxWsoV/FAhLVY07Rvky/P" />
+	</div>
 
 
 
-		<div class="navbar navbar-expand-sm bsnav">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="/"> <img
-					src="http://adtinsurance.co.ke/images/logo.png"
-					style="width: 300px; height: 70px;" class="img-fluid" />
-				</a>
-				<button type="button" class="navbar-toggler toggler-spring">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-sm-end">
-					<ul class="navbar-nav navbar-mobile mr-0 mt-5 mt-md-0">
-						<li class="nav-item"><a class="nav-link" href="/">Home <span
-								class="sr-only">(current)</span></a></li>
-						<li class="nav-item"><a class="nav-link" href=''>Blog</a></li>
+	<div class="navbar navbar-expand-sm bsnav">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/"> <img
+				src="http://adtinsurance.co.ke/images/logo.png"
+				style="width: 300px; height: 70px;" class="img-fluid" />
+			</a>
+			<button type="button" class="navbar-toggler toggler-spring">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-sm-end">
+				<ul class="navbar-nav navbar-mobile mr-0 mt-5 mt-md-0">
+					<li class="nav-item"><a class="nav-link" href="/">Home <span
+							class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" href=''>Blog</a></li>
 
 
-					</ul>
-				</div>
+				</ul>
 			</div>
 		</div>
+	</div>
 
-		<div class="clearfix"></div>
+	<div class="clearfix"></div>
 
 
-		<div class="container-fluid mt-md-5 pt-md-5 text-center">
-			<div class="row">
-				<div class="col-12">
-					<h1 class="abtheading">Education Insurance</h1>
-				</div>
+	<div class="container-fluid mt-md-5 pt-md-5 text-center">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="abtheading">Education Insurance</h1>
 			</div>
 		</div>
-		<div class="container-fluid mt-md-2 calculatorinner">
-			<div class="row px-0 px-md-5">
-				<div class="col-12 col-md-7 order-1 order-md-0">
-					<p>How much do you need to save Monthly to fund your childs
-						education? Calculate the amount using our Children Education
-						Planner.</p>
+	</div>
+	<div class="container-fluid mt-md-2 calculatorinner">
+		<div class="row px-0 px-md-5">
+			<div class="col-12 col-md-7 order-1 order-md-0">
+				<p>How much do you need to save Monthly to fund your childs
+					education? Calculate the amount using our Children Education
+					Planner.</p>
 
-
+				<form method="post" action="Eduinsurdetails" id="frmwww">
 					<div class="form-group row">
 						<div class="col-md-6">
 							<span class="txtsize">Name <span
@@ -352,7 +360,7 @@
 								class="form-control PerTxt Currency" />
 						</div>
 						<div class="col-md-6">
-							<span class="txtsize">Present Cost of Higher Education <span
+							<span class="txtsize">Cost of Higher Education <span
 								class="text-danger font-weight-bold">*</span></span> <input
 								name="Amount" type="text" autocomplete="off"
 								id="pageContent_txtpresentcost" placeholder="Ex:Rs 10,000"
@@ -370,138 +378,352 @@
 					<input type="submit" name="submit" value="Submit" id="submit"
 						class="btn btn-primary btn-lg" /> &nbsp;&nbsp;
 					<hr />
+				</form>
 
-				</div>
-				<div class="col-12 col-md-5 order-0 order-md-1">
-					<img
-						src="https://www.finology.in/Calculators/images/CalculatorImage/child-eduction.png"
-						class="img-fluid imgsize" />
-				</div>
+
+			</div>
+			<div class="col-12 col-md-5 order-0 order-md-1">
+				<img
+					src="https://www.finology.in/Calculators/images/CalculatorImage/child-eduction.png"
+					class="img-fluid imgsize" />
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="container-fluid mt-md-2 calculatorinner">
+		<div class="row px-0 px-md-5">
+			<div class="col-12 col-md-7 order-1 order-md-0">
+				<form method="get" action="/EducationInsurane/{policynumber}">
+					<input name="policynumber" type="text"
+						placeholder="Delete By Policy Number"></input> <input
+						type="submit" name="submit" value="Submit" id="submit"
+						class="btn btn-primary btn-lg" />
+				</form>
+				
 			</div>
 		</div>
+	</div>
 
-		<div class="container-fluid mt-md-5 pt-md-5 text-center">
-			<div class="row">
-				<div class="col-12">
-					<h4 class="abtheading">About ADT Children Education Planner</h4>
-				</div>
+	<hr />
+	<div class="container-fluid mt-md-2 calculatorinner">
+		<div class="row px-0 px-md-5">
+			<div class="col-12 col-md-7 order-1 order-md-0">
+				<form method="get" action="GetEduinsurdetails">
+					<input name="policynumber" type="text"
+						placeholder="Get Details By Policy Number"></input> <input
+						type="submit" name="submit" value="Submit" id="submit"
+						class="btn btn-primary btn-lg" />
+				</form>
+				${edbe}
 			</div>
 		</div>
-		<div class="container-fluid mt-md-5 mx-auto" style="max-width: 90%;">
-			<div class="row">
-				<div class="col-12">
-					<p>Parents are always worried about how to provide their
-						children the best education and, arrange funds for the same. With
-						growing cost of education and inflation, one needs to start saving
-						early and plan it diligently.</p>
-					<p>Our calculator will help you determine how much you need to
-						invest monthly to cover the cost your child’s education in future.</p>
-					<p>
-						<strong>1) What is Child Education Planning?</strong>
-					</p>
-					<p>Child Education planning is a process by which the parents
-						forecast the expenses they will incur for their child’s higher
-						education in future and start saving for that beforehand so that
-						no financial burden occurs in the future. It is like a typical
-						life insurance plan which provides opportunity for investment – to
-						build a corpus for your child’s future.</p>
-					<p>
-						<strong>2) What are the benefits of Child Education
-							Planning?</strong>
-					</p>
-					<p>A child education plan has many benefits such as it secures
-						the child’s future, releases worries of parents, reduces financial
-						burden at future, provides tax benefits and many more.</p>
-					<p>
-						<strong>3) When should you start investing for Child
-							Education Plan?</strong>
-					</p>
-					<p>One should start investing as early as possible for the
-						child’s future because it gives the parents a long-term horizon.
-						The early savings give us benefit because the cost in future is
-						going to only go up and one can save larger funds accordingly.</p>
-					<p>
-						<strong>4) Where can you invest?</strong>
-					</p>
-					<p>There are various investment options available like specific
-						insurance plans for child’s education, schemes like Sukanya
-						Samriddhi Yojna, stocks, mutual funds, recurring deposits, FD,
-						etc. One can even diversify his options by investing partly in one
-						option and partly in others.</p>
-				</div>
-			</div>
-		</div>
+	</div>
 
+	<hr />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<form method="Get" action="calculation">
+					<div class="form-group row">
 
-		<div class="p5 footer cta flex-container flex-wrap">
-			<div
-				class="col-12 p2 bg-primary-50 border1 border-primary-light br1 mt-1 flex-align-center flex-container">
-				<img class="col-6 col-md-3 m-2"
-					src="http://adtinsurance.co.ke/images/logo.png" />
-				<div class="col-12 col-md-9 pl12 c-white">
-					<h4>One Subscription. Three Products. Unlimited Access.</h4>
-					<p class="mt-3">Shape your investment journey with 25+ premium
-						courses, 15+ stock recommendations and a premium subscription of
-						Ticker Plus.</p>
-					<a href=""
-						class="bg-1 fw700 text-nounder textblack p1 pl15 pr15 br05">Learn
-						More</a>
-				</div>
-			</div>
-		</div>
-		<section class="footer">
+						<div class="col-md-6">
+							<label for="exampleInputPassword1">Tenure</label> <select
+								name="Tenure" id="Tenure" class="form-control">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+								<option value="32">32</option>
+								<option value="33">33</option>
+								<option value="34">34</option>
+								<option value="35">35</option>
+								<option value="36">36</option>
+								<option value="37">37</option>
+								<option value="38">38</option>
+								<option value="39">39</option>
+								<option value="40">40</option>
+								<option value="41">41</option>
+								<option value="42">42</option>
+								<option value="43">43</option>
+								<option value="44">44</option>
+								<option value="45">45</option>
+								<option value="46">46</option>
+								<option value="47">47</option>
+								<option value="48">48</option>
+								<option value="49">49</option>
+								<option value="50">50</option>
+								<option value="51">51</option>
+								<option value="52">52</option>
+								<option value="53">53</option>
+								<option value="54">54</option>
+								<option value="55">55</option>
+								<option value="56">56</option>
+								<option value="57">57</option>
 
-			<div class="container">
-				<div class="row footerrow">
-					<div class="col-6 col-md-3">
-						<h6>ADT Insurance</h6>
-						<a href="">About us</a> <a href="">Team</a> <a href="">Privacy
-							Policy</a> <a href="">Terms &amp; Conditions</a> <a href="">Returns
-							&amp; Refunds</a>
+							</select>
+						</div>
 					</div>
-					<div class="col-6 col-md-3">
-						<h6>Whats New</h6>
-						<a href="">ADT One</a>
 
+
+					<div class="form-group row">
+						<div class="col-md-6">
+							<span class="txtsize">Expected Annual Rate Of Return (P.A)
+								<span class="text-danger font-weight-bold">*</span>
+							</span> <input name="Percentage" type="text" autocomplete="off"
+								id="pageContent_txtExpectedAnnualrate" placeholder="Ex:12%"
+								class="form-control PerTxt Currency" />
+						</div>
+						<div class="col-md-6">
+							<span class="txtsize">Cost of Higher Education <span
+								class="text-danger font-weight-bold">*</span></span> <input
+								name="Amount" type="text" autocomplete="off"
+								id="pageContent_txtpresentcost" placeholder="Ex:Rs 10,000"
+								class="form-control CurrencyMax"
+								onkeyup="word.innerHTML=convertNumberToWords(this.value)" />
+							<div id="word" class="wording"></div>
+						</div>
 					</div>
-					<div class="col-6 col-md-3">
-						<h6>Top Calculators</h6>
-						<a href="">Lumpsum Calculator</a> <a href="">SIP Calculator</a> <a
-							href="">Step-up Calculator</a> <a href="">DCF Calculator</a> <a
-							href="">Self Service by Recipe</a>
-
+					<div class="form-group row">
+						<div class="col-md-12">
+							<span id="pageContent_lblError"
+								class="text-danger font-weight-bold"></span>
+						</div>
 					</div>
+					<input type="submit" name="submit" value="Submit" id="submit"
+						class="btn btn-primary btn-lg" /> &nbsp;&nbsp;
+						
+						
+						
+						${Calcula};
+					<hr />
+				</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-					<div class="col-6 col-md-3">
-						<h6>Contact Us</h6>
-						<p class="contact">
-							ADT Insurance<br /> Hyderabad<br /> Ashwin TL<br /> Siva GIT <br />
-							Madhu Scrum Master <br /> Ome POC <br /> Sai
-
-						</p>
-
-						<p class="contact">
-							<i class="fas fa-fw fa-envelope-open"></i>&nbsp;support@ADTInsurance.in
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="bsnav-mobile">
-			<div class="bsnav-mobile-overlay"></div>
-			<div class="navbar">
-				<div class="masterbarmobile"></div>
+	<div class="container-fluid mt-md-5 pt-md-5 text-center">
+		<div class="row">
+			<div class="col-12">
+				<h4 class="abtheading">About ADT Children Education Planner</h4>
 			</div>
 		</div>
+	</div>
+	<div class="container-fluid mt-md-5 mx-auto" style="max-width: 90%;">
+		<div class="row">
+			<div class="col-12">
+				<p>Parents are always worried about how to provide their
+					children the best education and, arrange funds for the same. With
+					growing cost of education and inflation, one needs to start saving
+					early and plan it diligently.</p>
+				<p>Our calculator will help you determine how much you need to
+					invest monthly to cover the cost your child’s education in future.</p>
+				<p>
+					<strong>1) What is Child Education Planning?</strong>
+				</p>
+				<p>Child Education planning is a process by which the parents
+					forecast the expenses they will incur for their child’s higher
+					education in future and start saving for that beforehand so that no
+					financial burden occurs in the future. It is like a typical life
+					insurance plan which provides opportunity for investment – to build
+					a corpus for your child’s future.</p>
+				<p>
+					<strong>2) What are the benefits of Child Education
+						Planning?</strong>
+				</p>
+				<p>A child education plan has many benefits such as it secures
+					the child’s future, releases worries of parents, reduces financial
+					burden at future, provides tax benefits and many more.</p>
+				<p>
+					<strong>3) When should you start investing for Child
+						Education Plan?</strong>
+				</p>
+				<p>One should start investing as early as possible for the
+					child’s future because it gives the parents a long-term horizon.
+					The early savings give us benefit because the cost in future is
+					going to only go up and one can save larger funds accordingly.</p>
+				<p>
+					<strong>4) Where can you invest?</strong>
+				</p>
+				<p>There are various investment options available like specific
+					insurance plans for child’s education, schemes like Sukanya
+					Samriddhi Yojna, stocks, mutual funds, recurring deposits, FD, etc.
+					One can even diversify his options by investing partly in one
+					option and partly in others.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="p5 footer cta flex-container flex-wrap">
+		<div
+			class="col-12 p2 bg-primary-50 border1 border-primary-light br1 mt-1 flex-align-center flex-container">
+			<img class="col-6 col-md-3 m-2"
+				src="http://adtinsurance.co.ke/images/logo.png" />
+			<div class="col-12 col-md-9 pl12 c-white">
+				<h4>One Subscription. Three Products. Unlimited Access.</h4>
+				<p class="mt-3">Shape your investment journey with 25+ premium
+					courses, 15+ stock recommendations and a premium subscription of
+					Ticker Plus.</p>
+				<a href=""
+					class="bg-1 fw700 text-nounder textblack p1 pl15 pr15 br05">Learn
+					More</a>
+			</div>
+		</div>
+	</div>
+	<section class="footer">
+
+		<div class="container">
+			<div class="row footerrow">
+				<div class="col-6 col-md-3">
+					<h6>ADT Insurance</h6>
+					<a href="">About us</a> <a href="">Team</a> <a href="">Privacy
+						Policy</a> <a href="">Terms &amp; Conditions</a> <a href="">Returns
+						&amp; Refunds</a>
+				</div>
+				<div class="col-6 col-md-3">
+					<h6>Whats New</h6>
+					<a href="">ADT One</a>
+
+				</div>
+				<div class="col-6 col-md-3">
+					<h6>Top Calculators</h6>
+					<a href="">Lumpsum Calculator</a> <a href="">SIP Calculator</a> <a
+						href="">Step-up Calculator</a> <a href="">DCF Calculator</a> <a
+						href="">Self Service by Recipe</a>
+
+				</div>
+
+				<div class="col-6 col-md-3">
+					<h6>Contact Us</h6>
+					<p class="contact">
+						ADT Insurance<br /> Hyderabad<br /> Ashwin TL<br /> Siva GIT <br />
+						Madhu Scrum Master <br /> Ome POC <br /> Sai
+
+					</p>
+
+					<p class="contact">
+						<i class="fas fa-fw fa-envelope-open"></i>&nbsp;support@ADTInsurance.in
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="bsnav-mobile">
+		<div class="bsnav-mobile-overlay"></div>
+		<div class="navbar">
+			<div class="masterbarmobile"></div>
+		</div>
+	</div>
 
 
 
 
-		<script type="text/javascript">
-			//<![CDATA[
-			WebForm_AutoFocus('pageContent_ddlcurrentage');//]]>
-		</script>
-	</form>
+	<script type="text/javascript">
+		//<![CDATA[
+		WebForm_AutoFocus('pageContent_ddlcurrentage');//]]>
+	</script>
+
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
