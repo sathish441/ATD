@@ -10,42 +10,40 @@ import javax.persistence.Table;
 
 public class LifeBean {
 	@Id
+	@Column(name="fullname")
+	String fullName;
+	@Column(name="age")
+	String age;
+	@Column(name="dob")
+	String dob;
+	@Column(name="permanentAddress")
+	String permanentAddress;
 	
-	@Column(name="policy Type")
-	private String policyType;
-	@Column(name="policy Amount")
-	private int policyAmount;
-	@Column(name="tenure")
-	private int tenure;
-	@Column(name="percentage")
-	private int percentage;
+	public String getFullName() {
+		return fullName;
+	}
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
+	public String getDob() {
+		return dob;
+	}
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+	public String getPermanentAddress() {
+		return permanentAddress;
+	}
+	public void setPermanentAddress(String permanentAddress) {
+		this.permanentAddress = permanentAddress;
+	}
 	
-	
-
-	public String getpolicyType() {
-		return policyType;
-	}
-	public void setpolicyType(String policyType) {
-		this.policyType = policyType;
-	}
-	public int getPolicyAmount() {
-		return policyAmount;
-	}
-	public void setPolicyAmount(int policyAmount) {
-		this.policyAmount = policyAmount;
-	}
-	public int getTenure() {
-		return tenure;
-	}
-	public void setTenure(int tenure) {
-		this.tenure = tenure;
-	}
-	public int getPercentage() {
-		return percentage;
-	}
-	public void setPercentage(int percentage) {
-		this.percentage = percentage;
-	}
 	
 
 }

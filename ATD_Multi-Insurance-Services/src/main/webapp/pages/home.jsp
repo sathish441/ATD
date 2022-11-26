@@ -10,8 +10,13 @@
 <title>Home</title>
 >>>>>>> branch 'master' of https://github.com/Siva8125/ATD.git
 </head>
-<body>
 
+<div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3aq2jokthk0Mix7KuKuOBc5sDn_ufJd0y1QNYpxAWAdueNj4PdnxLJHwzx9kf86QbJY&usqp=CAU');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;" >
 
 <h2>Welcome to ATD Insurance- Home for multiple Insurance Services</h2>
 
@@ -49,6 +54,6 @@
 </table>
 
 
-
+</div>
 </body>
 </html>
