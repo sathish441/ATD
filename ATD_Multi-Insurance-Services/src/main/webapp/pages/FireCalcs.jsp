@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     <%@page import = "com.insurance.ATD.FireInsurance.Firebean" %>
     <%@page import="java.util.*"%>
+   
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,16 +18,50 @@ for(i=row;i>=0;i--){
 }
 %>
 <h2 align = "center">Fire Insurance Policy Calculations</h2>
-<body style = "background-image:url('https://www.pngitem.com/pimgs/m/526-5265497_-burning-fire-white-background.png');">
-Details are as below:<br>
+<body style = "background-image:url('https://www.pngitem.com/pimgs/m/11-117346_fire-transparent-background-hd-png-download.png');">
+
+<table cellpadding = "5";>
+<tr><td>Details are as below:</td></tr>
+
+<tr><td>${fire}</td></tr>
+
+
+<form action ="claimpolicy" method = "get">
+<tr><td>Claim my policy:</td></tr><tr>
+<td>
+My UID (as sent in mail): ATD- <input type = "text" name = "PolicyNumber"></td>
+<td>
+      <label for="percent">Damage Percentage</label> 
+      <select name="percent" id="pa">
+        <option value="select">Percentage</option>
+        <option value="25">25</option>
+        <option value="50">50</option>
+        <option value="75">75</option>
+         <option value="100">100</option>
+      </select>
+      </td>
+     <td> <input type="submit" value="Submit" /></td>
+      </td></tr>
+      <br>
+      <tr>
+      <td>Total Amount:</td>
+      <td>${amt }</td></tr>
+      <tr>
+      <td>Claimed Amount:</td>
+      <td>${claim}</td>
+      <tr><td>
+      Remaining Amount:
+      </td><td>
+      ${remaining}
+      </td></tr>
+</form>
 <br>
-${fire}
-<br>
-<br>
-Check out the policy calculations below:
+</table>
+<table cellpadding = "5;">
+<tr><td>Check out the policy calculations below:
 <form action="calculateintrest" method = "Get">
-<table>
-<tr><td>
+
+
 
       <label for="Amount">Policy Amount</label>
       <select name="Amount" id="pa">
@@ -56,11 +91,16 @@ Check out the policy calculations below:
         <option value="9">9</option>
         <option value="10">10</option>
       </select>
-      </td><td></td><td></td><td></td><td>
+      </td><td>
       <input type="submit" value="Submit" />
       </td>
 </form>
- <td></td><td><td></td><td></td><td>
+<td>
+<form action="Serialise" method = "post">
+Click to save data in doc :
+<input type="submit" value="Submit" /></td>
+</form>
+ <td>
 <button> <a href="FireInsurance">Back to Policies Page-Fire</a></button><br>
 </tr>
 <br>
@@ -75,10 +115,13 @@ Simple Interest :</td>
 <tr>
 <td>Total Amount :</td>
 
-<td>${amt} Lakhs</td></tr>
+<td>${amt} Lakhs</td><td> Amount in Words (Roundedoff):</td><td>  ${word} Lakhs</td>
+</tr>
 <tr><td></<td><td>
 <%out.print("=============="); %></td>
 </tr>
+<tr><td>
+
 </table>
 <%
 int x,y,rw=4;
@@ -88,5 +131,6 @@ for(y=0;y<=x;y++){
 }out.println("<br>");
 }
 %>
+
 </body>
 </html>

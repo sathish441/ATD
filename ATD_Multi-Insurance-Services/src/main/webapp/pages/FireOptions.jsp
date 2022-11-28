@@ -27,7 +27,7 @@ out.println("<br>");
 <h2>Select the fields from the following</h2>
 Enter your data:
 <form action="fireinputs" method = "post">
-<table>
+<table cellpadding = "5";">
 <tr><td>
 Materials Name : <input type = "text" name = "Materials"></td><td> 
 <label for="Amount">Policy Amount</label> in Lakhs
@@ -126,7 +126,6 @@ Materials Name : <input type = "text" name = "Materials"></td><td>
       </td><td></td><td></td><td>
       <input type="submit" value="Submit" />
       </td></tr>
-
 </form>
 <form action = "allresults" method = "get">
 <tr><td><br>Click to check all the policies in DB:
