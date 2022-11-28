@@ -9,6 +9,7 @@
 <body>
 <h4>Policy Number: ${PolicyNumber}</h4>
 <h4>PolicyHolderName: ${PolicyHolderName}</h4>
+<h4>Age: ${Age}</h4>
 <h4>PolicyAmount: ${PolicyAmount}</h4>
 <h4>Tenure: ${Tenure}</h4>
 <h4>Percentage: ${Percentage}</h4>
