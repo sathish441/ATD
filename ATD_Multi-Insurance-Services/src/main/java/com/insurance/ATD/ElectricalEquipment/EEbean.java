@@ -6,10 +6,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="electricalBean")
+
+@Table(name="EEbean")
 public class EEbean {
 	@Id
-	@Column(name="policyNumber")
+    @Column(name="PolicyNumber")
+
 	long PolicyNumber;
 	@Column(name="fullName")
 	String FullName;
