@@ -10,22 +10,14 @@ import javax.persistence.Table;
 
 public class LifeBean {
 	@Id
-	
-	@Column(name="full Name")
-	private String fullName;
-	
-	
-	@Column(name="policy Type")
-	private String policyType;
-	@Column(name="policy Amount")
-	private int policyAmount;
-	@Column(name="tenure")
-	private int tenure;
-	@Column(name="percentage")
-	private int percentage;
-	
-	
-	
+	@Column(name="fullname")
+	String fullName;
+	@Column(name="age")
+	String age;
+	@Column(name="dob")
+	String dob;
+	@Column(name="permanentAddress")
+	String permanentAddress;
 	
 	public String getFullName() {
 		return fullName;
@@ -33,30 +25,25 @@ public class LifeBean {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-	public String getpolicyType() {
-		return policyType;
+	public String getAge() {
+		return age;
 	}
-	public void setpolicyType(String policyType) {
-		this.policyType = policyType;
+	public void setAge(String age) {
+		this.age = age;
 	}
-	public int getPolicyAmount() {
-		return policyAmount;
+	public String getDob() {
+		return dob;
 	}
-	public void setPolicyAmount(int policyAmount) {
-		this.policyAmount = policyAmount;
+	public void setDob(String dob) {
+		this.dob = dob;
 	}
-	public int getTenure() {
-		return tenure;
+	public String getPermanentAddress() {
+		return permanentAddress;
 	}
-	public void setTenure(int tenure) {
-		this.tenure = tenure;
+	public void setPermanentAddress(String permanentAddress) {
+		this.permanentAddress = permanentAddress;
 	}
-	public int getPercentage() {
-		return percentage;
-	}
-	public void setPercentage(int percentage) {
-		this.percentage = percentage;
-	}
+	
 	
 
 }
