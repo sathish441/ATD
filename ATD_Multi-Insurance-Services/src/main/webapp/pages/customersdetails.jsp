@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body bgcolor="orange">
+<h2>Data Registered Successfully</h2>
 <h4> ${homebean}</h4>
 <h1>Search Costumers Data</h1>
 	<form action="searchdetails" method="get">
