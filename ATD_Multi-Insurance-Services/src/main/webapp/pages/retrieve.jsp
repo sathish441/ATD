@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="searchdetails" method="post">
-PolicyNumber:<input type="number" name="PolicyNumber">
+<form:form action="searchdetails" method="post">
+PolicyNumber:<input type="text" path="PolicyNumber">
 <input type="submit" name="Search">
-<h4> ${homebean}</h4>
+</form:form>
 </body>
 </html>
