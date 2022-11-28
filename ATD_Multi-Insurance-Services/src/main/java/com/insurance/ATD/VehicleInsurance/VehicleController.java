@@ -10,7 +10,7 @@ public class VehicleController {
 @Autowired	
 VehicleRepo vehiclerepo;
 
-@RequestMapping (value="VehicleInsuranceBean")
+@RequestMapping (value="VehicleInsuranceBean")   // 
 public String VehicleInsurance() {
 	return "Vehicletype";
 	
@@ -21,6 +21,11 @@ public String Inputs(VehicleBean vb) {
 	vehiclerepo.save(vb);
 	return "Home";
 	
+}
+@RequestMapping(value="adddetails")
+public String Adddetails(VehicleBean vb) {
+	vehiclerepo.save(vb);
+	return "Home"; 
 }
 	
 }
