@@ -28,7 +28,7 @@
 
 <br><br>
 <select type = "select">
-<option value="Select">Policy Amount Rs</option>
+<option value="Select">Policy Amount per month</option>
 <option value="300">3000</option>
 <option value="4500">4500</option>
 <option value="2500">2500</option>
@@ -36,19 +36,19 @@
 </select>
 <br><br>
 <select type = "select">
-<option value="Select">Tenure</option>
-<option value="99 years">99 Years</option>
-<option value="5 Years">5 Years</option>
-<option value="2 Years">2 Years</option>
-<option value="1 Year">1 Year</option>
+<option value="Select">Instalment Process</option>
+<option value="99 years"> Total Payment</option>
+<option value="5 Years">12 months</option>
+<option value="2 Years">24 months</option>
+<option value="1 Year">48 months</option>
 </select>
 <br><br>
 <select type = "select">
 <option value="Select">Tenure</option>
-<option value="Whole Life Cover for 99 years">99 Years</option>
-<option value="Life cover for 5 Years">5 Years</option>
-<option value="Life cover for 2 Years">2 Years</option>
-<option value="Life cover for 1 Year">1 Year</option>
+<option value="99 Years">99 Years</option>
+<option value="5 Years">5 Years</option>
+<option value="2 Years">2 Years</option>
+<option value="1 Year">1 Year</option>
 </select>
 <h3>Total policy amount to be paid: </h3>
 <%
