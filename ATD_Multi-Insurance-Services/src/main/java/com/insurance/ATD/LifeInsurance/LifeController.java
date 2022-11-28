@@ -2,6 +2,7 @@ package com.insurance.ATD.LifeInsurance;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -22,9 +23,14 @@ public class LifeController {
 	public String UserDetails() {
 		return "LifePolicyHolderDetails";
 	}
-	@PostMapping(value="FilledUserDetails")
+	
+	@RequestMapping(value="FilledUserDetails")
+	@GetMapping
 	public String filledUserDetails(LifeBean lb) {
-		repo.save(lb);
+		lb.setFullName("fullname");
+		lb.setAge("age");
+		lb.setDob("dob");
+		lb.setPermanentAddress("permanentAddress");
 		
 		return "home";
 	}

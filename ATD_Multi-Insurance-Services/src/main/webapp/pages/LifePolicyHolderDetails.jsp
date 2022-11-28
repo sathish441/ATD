@@ -15,7 +15,7 @@
   background-size: cover;" >
 <h1 style= "color:red">ATD Insurances</h1>
 <h2 align="center">Details of Policy Holder</h2>
-<form align="center" action="FilledUserDetails" method="">
+<form align="center" action="FilledUserDetails" method="get">
 
 Full Name: <input type="text" placeholder="Enter Full Name"><br>
 Age: <input type="text" placeholder="Enter your Age"><br>
