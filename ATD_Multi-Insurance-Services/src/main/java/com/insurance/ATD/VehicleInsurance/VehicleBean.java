@@ -6,17 +6,17 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name= "VehicleInsurance")
+@Table(name= "VehicleInsuranceBean")
 public class VehicleBean {
 	
 @Id
 @Column(name = "policynumber")
 private long PolicyNumber;
 
-@Column(name = "policyholder name")
+@Column(name = "policyholdername")
 private String PolicyHolderName;
 
-@Column(name = "VehicleType")
+@Column(name = "vehicletype")
 private String VehicleType;
 
 @Column(name = "policyamount")

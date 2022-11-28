@@ -1,14 +1,13 @@
-package com.insurance.ATD.FireInsurance;
+package com.insurance.ATD.GoldInsurance;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
 @Entity
-@Table(name="fireinsurancebean")
-public class Firebean {
+@Table(name="GoldBean")
+public class GoldBean {
 	@Id
 	@Column(name = "PolicyNumber")
 	private int policynumber;
@@ -18,9 +17,6 @@ public class Firebean {
 	private int amount;
 	@Column(name="Tenure")
 	private int Tenure;
-	@Column(name="percentage")
-	private int percentage;
-	
 	public int getPolicynumber() {
 		return policynumber;
 	}
@@ -45,20 +41,6 @@ public class Firebean {
 	public void setTenure(int tenure) {
 		Tenure = tenure;
 	}
-		public int getPercentage() {
-			return percentage;
-		}
-		public void setPercentage(int percentage) {
-			this.percentage = percentage;
-		}
-		
-		 
-		@Override
-		public String toString() {
-			return " Your Fire Insurance Policy Details \"<br>\"[Policynumber=" + policynumber +"<br>"+ ", Materials=" + Materials +"<br>"+ ", Amount=" + amount
-					+"<br>"+ ", Tenure=" + Tenure +"<br>"+ ", Percentage=" + percentage + "]"+"<br>"+"<br>";
-		}
-		
-		
-	}
 	
+
+}
