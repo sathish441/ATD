@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 
+
 <title>Home</title>
 </head>
 
@@ -30,7 +31,7 @@
 <td><tr><td>For flood related Stock:</td>
 <td><button>Marine Insurance</button></td></tr>
 <tr><td>Children are precious:</td>
-<td><button>Child Insurance</button></td></tr>
+<td><button><a href="ChildHome">Child Insurance</a></button></td></tr>
 <tr><td>For those lovely pets:</td>
 <td><button>Pet Insurance</button></td></tr>
 <tr><td>For shocking electric stock:</td>
