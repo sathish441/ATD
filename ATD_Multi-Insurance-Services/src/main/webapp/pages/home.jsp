@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 
-
 <title>Home</title>
 </head>
 
@@ -19,6 +18,8 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;" >
 
+<h1 style= "color:red">ATD Insurances</h1>
+<h2 style="color:blue">Welcome to ATD Insurance- Home for multiple Insurance Services</h2>
 
 
 <table align = "center">
