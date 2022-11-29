@@ -6,10 +6,16 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="orange">
+<h2>Data Registered Successfully</h2>
 <h4> ${homebean}</h4>
-<tr>
-<td>
-<button><a href="retrieve">Search Costumers</a></button></td></tr>
+<h1>Search Costumers Data</h1>
+	<form action="searchdetails" method="get">
+		Enter PolicyNumber:<input type="number" name="PolicyNumber">
+		<input type="submit" name="Search">
+	</form>
+	<table>
+	<td><button><a href="customers">Home Insurance</button></td></tr>
+	</table>
 </body>
 </html>

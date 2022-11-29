@@ -1,11 +1,25 @@
 package com.insurance.ATD.ElectricalEquipment;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+
+@Table(name="EEbean")
 public class EEbean {
+	@Id
+    @Column(name="PolicyNumber")
 
 	long PolicyNumber;
+	@Column(name="fullName")
 	String FullName;
+	@Column(name="material")
 	String Material;
+	@Column(name="policyamount")
 	double PolicyAmount;
+	@Column(name="tenure")
 	int Tenure;
 	
 	

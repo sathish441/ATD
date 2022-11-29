@@ -8,9 +8,17 @@
 
 <title>Home</title>
 </head>
-<body>
+
 
 <h1>Welcome to ATD Insurance- Home for multiple Insurance Services</h1>
+
+<div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3aq2jokthk0Mix7KuKuOBc5sDn_ufJd0y1QNYpxAWAdueNj4PdnxLJHwzx9kf86QbJY&usqp=CAU');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;" >
+
 
 
 <table align = "center">
@@ -48,6 +56,6 @@
 </table>
 
 
-
+</div>
 </body>
 </html>

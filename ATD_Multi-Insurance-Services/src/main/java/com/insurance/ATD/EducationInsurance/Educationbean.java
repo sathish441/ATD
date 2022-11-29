@@ -3,6 +3,7 @@ package com.insurance.ATD.EducationInsurance;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -10,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "educationinsurancebean")
 public class Educationbean {
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	@Column(name = "PolicyNumber")
 	private int policynumber;
 	@Column(name = "Name")
@@ -60,6 +61,12 @@ public class Educationbean {
 
 	public void setTenure(int tenure) {
 		Tenure = tenure;
+	}
+
+	@Override
+	public String toString() {
+		return "Educationbean [policynumber=" + policynumber + ", Name=" + Name + ", Amount=" + Amount + ", Tenure="
+				+ Tenure + ", Percentage=" + Percentage + "]";
 	}
 
 }
