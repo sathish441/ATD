@@ -3,15 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"
+<meta charset="UTF-8">
 
 
 <title>Home</title>
 </head>
 <body>
 
+<h1>Welcome to ATD Insurance- Home for multiple Insurance Services</h1>
 
-<h2>Welcome to ATD Insurance- Home for multiple Insurance Services</h2>
 
 <table align = "center">
 <tr><td>For Fire related Stocks:</td>
@@ -41,7 +41,7 @@
 <tr><td>For protecting your gold:</td>
 <td><button>Gold Insurance</button></td></tr>
 <tr><td>For protecting your hotel:</td>
-<td><button>Hotel Insurance</button></td></tr>
+<td><button><a href="HotelInsurance">Hotel Insurance</button></td></tr>
 <tr><td>For protecting your crop:</td>
 <td><button>Crop Insurance</button></td></tr>
 
