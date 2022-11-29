@@ -12,6 +12,9 @@
 <tr><td>${data}</td></tr>
 </table>
 <table>
+<tr><td>${updatedhome}</td></tr>
+</table>
+<table>
 	<td><button><a href="customers">Home Insurance</button></td></tr>
 	</table>
 </body>
