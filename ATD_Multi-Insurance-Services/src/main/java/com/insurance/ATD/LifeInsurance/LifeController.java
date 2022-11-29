@@ -5,11 +5,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class LifeController {
 	@Autowired
 	LifeRepo lifeRepo;
+	@Autowired
+	LifeRepo2 lifeRepo2;
 	
 	@RequestMapping(value="LifeInsurance")
 	public String LifeInsurance() {
@@ -19,19 +22,37 @@ public class LifeController {
 	public String OptionsPage() {
 		return "WholeLifeCover99Years";
 	}
-	@RequestMapping(value="userDetails")
-	public String UserDetails() {
+	@PostMapping(value="fromWholeLife")
+	public String UserOptionsPage(LifeOptionsBean lob) {
+		lifeRepo2.save(lob);
 		return "LifePolicyHolderDetails";
 	}
 	
-	@RequestMapping(value="FilledUserDetails")
-	@GetMapping
-	public String filledUserDetails(LifeBean lb) {
-		lb.setFullName("fullname");
-		lb.setAge("age");
-		lb.setDob("dob");
-		lb.setPermanentAddress("permanentAddress");
-		
-		return "home";
+	@PostMapping(value="userDetailsSave")
+	public String UserDetails(LifeBean lb) {
+		lifeRepo.save(lb);
+		return "LifeUserPolicityResults";
 	}
+	@PostMapping(value="userPolicyResults")
+	public ModelAndView UserPolicyResults(LifeBean lb) {
+		ModelAndView mav = new ModelAndView();
+		lb.getFullname();
+		lb.getAge();
+		lb.getDob();
+		lb.getPermanentAddress();
+		mav.addObject(lb);
+		return mav;
+	}
+	@PostMapping(value="userPolicyResults")
+	public ModelAndView UserPolicyResults2(LifeOptionsBean lob) {
+		ModelAndView mav = new ModelAndView();
+		lob.getInstalmentProcess();
+		lob.getPolicyType();
+		lob.getPolicyTenure();
+		lob.getPolicyAmountPerMonth();
+		mav.addObject(lob);
+		return mav;
+		
+	}
+	
 }

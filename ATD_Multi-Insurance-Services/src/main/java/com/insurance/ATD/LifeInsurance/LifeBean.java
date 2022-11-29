@@ -10,20 +10,28 @@ import javax.persistence.Table;
 
 public class LifeBean {
 	@Id
+	@Column(name="s.no")
+	private int sno;
 	@Column(name="fullname")
-	String fullName;
+	private String fullname;
 	@Column(name="age")
-	String age;
+	private String age;
 	@Column(name="dob")
-	String dob;
+	private String dob;
 	@Column(name="permanentAddress")
-	String permanentAddress;
+	private String permanentAddress;
 	
-	public String getFullName() {
-		return fullName;
+	public int getSno() {
+		return sno;
 	}
-	public void setFullName(String fullName) {
-		this.fullName = fullName;
+	public void setSno(int sno) {
+		this.sno = sno;
+	}
+	public String getFullname() {
+		return fullname;
+	}
+	public void setFullname(String fullname) {
+		this.fullname = fullname;
 	}
 	public String getAge() {
 		return age;
@@ -45,5 +53,4 @@ public class LifeBean {
 	}
 	
 	
-
 }

@@ -15,12 +15,12 @@
   background-size: cover;" >
 <h1 style= "color:red">ATD Insurances</h1>
 <h2 align="center">Details of Policy Holder</h2>
-<form align="center" action="FilledUserDetails" method="get">
+<form align="center" action="userDetailsSave" method="Post">
 
-Full Name: <input type="text" placeholder="Enter Full Name"><br>
-Age: <input type="text" placeholder="Enter your Age"><br>
-DOB: <input type="date" placeholder="Enter DOB"><br>
-Permanent Address: <input type="text">
+Full Name: <input type="text" placeholder="Enter Full Name" name="fullname"><br>
+Age: <input type="text" placeholder="Enter your Age" name="age"><br>
+DOB: <input type="date" placeholder="Enter DOB" name="dob"><br>
+Permanent Address: <input type="text" placeholder="Enter Address" name="permanentAddress">
 
 
 
