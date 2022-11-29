@@ -3,11 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"
+<meta charset="UTF-8">
 
 
 <title>Home</title>
 </head>
+
+
+<h1>Welcome to ATD Insurance- Home for multiple Insurance Services</h1>
 
 <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3aq2jokthk0Mix7KuKuOBc5sDn_ufJd0y1QNYpxAWAdueNj4PdnxLJHwzx9kf86QbJY&usqp=CAU');
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -16,7 +19,7 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;" >
 
-<h2>Welcome to ATD Insurance- Home for multiple Insurance Services</h2>
+
 
 <table align = "center">
 <tr><td>For Fire related Stocks:</td>
@@ -46,7 +49,7 @@
 <tr><td>For protecting your gold:</td>
 <td><button>Gold Insurance</button></td></tr>
 <tr><td>For protecting your hotel:</td>
-<td><button>Hotel Insurance</button></td></tr>
+<td><button><a href="HotelInsurance">Hotel Insurance</button></td></tr>
 <tr><td>For protecting your crop:</td>
 <td><button>Crop Insurance</button></td></tr>
 
