@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -14,7 +15,12 @@ public class LifeController {
 	@Autowired
 	LifeRepo2 lifeRepo2;
 	
-	@RequestMapping(value="LifeInsurance")
+//Insert
+	@RequestMapping(value="PolicyHolderActions")
+	public String PolicyHolderActions1() {
+		return "LifePolicyHolderActions";
+	}
+	@RequestMapping(value="takeAPolicy")
 	public String LifeInsurance() {
 		return "LifeOptions";
 	}
@@ -27,12 +33,29 @@ public class LifeController {
 		lifeRepo2.save(lob);
 		return "LifePolicyHolderDetails";
 	}
-	
 	@PostMapping(value="userDetailsSave")
 	public String UserDetails(LifeBean lb) {
 		lifeRepo.save(lb);
 		return "LifeUserPolicityResults";
 	}
+//Clear upto here
+	//Search
+	@RequestMapping(value="SearchPolicyDetails")
+	public String SearchDetails() {
+		return "LifeSearch";
+	}
+	@PostMapping(value="SearchInput")
+	public ModelAndView TakenSearchInput(@RequestParam int sno) {
+		ModelAndView mav = new ModelAndView("LifeUserPolicyResults");
+		LifeBean lb = lifeRepo.findById(sno).orElse(new LifeBean());
+		mav.addObject("searchResult1",lb);
+		
+		return mav;
+	}
+	
+
+	
+	
 	@PostMapping(value="userPolicyResults")
 	public ModelAndView UserPolicyResults(LifeBean lb) {
 		ModelAndView mav = new ModelAndView();
@@ -40,17 +63,20 @@ public class LifeController {
 		lb.getAge();
 		lb.getDob();
 		lb.getPermanentAddress();
-		mav.addObject(lb);
+		
+		mav.setViewName("userPolicyResults");
+		mav.addObject("policyResult", lb);
 		return mav;
 	}
-	@PostMapping(value="userPolicyResults")
+	@PostMapping(value="userPolicyResults2")
 	public ModelAndView UserPolicyResults2(LifeOptionsBean lob) {
 		ModelAndView mav = new ModelAndView();
 		lob.getInstalmentProcess();
 		lob.getPolicyType();
 		lob.getPolicyTenure();
 		lob.getPolicyAmountPerMonth();
-		mav.addObject(lob);
+		mav.setViewName("userPolicyResults");
+		mav.addObject("policyResult", lob);
 		return mav;
 		
 	}
