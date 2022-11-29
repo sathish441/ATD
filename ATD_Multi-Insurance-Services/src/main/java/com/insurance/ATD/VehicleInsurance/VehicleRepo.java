@@ -1,10 +1,10 @@
 package com.insurance.ATD.VehicleInsurance;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
 
 	
-	public interface VehicleRepo extends JpaRepository<VehicleBean ,Long>{
+	public interface VehicleRepo extends CrudRepository<VehicleBean ,Integer>{
 	
 
 	}
