@@ -6,3 +6,4 @@ public interface LifeRepo extends CrudRepository<LifeBean, Integer> {
 
 }
 
+

@@ -5,3 +5,4 @@ import org.springframework.data.repository.CrudRepository;
 public interface LifeRepo2 extends CrudRepository<LifeOptionsBean, Integer> {
 
 }
+
