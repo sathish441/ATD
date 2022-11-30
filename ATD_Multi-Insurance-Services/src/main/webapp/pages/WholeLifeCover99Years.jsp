@@ -22,7 +22,7 @@
 
 <tr><td>Policy Type:</td>
 <td>
-<select type = "select" id="001" name="policyType">
+<select type = "select" id="001" name="policyType" onchange="populate(this.id,'002')">
 <option value="policyType">Policy Type</option>
 <option value="Whole Life Cover for 99 years">Life Cover for 99 years</option>
 <option value="Life cover for 5 Years">Life cover for 5 Years</option>
@@ -62,6 +62,7 @@
 </td></tr>
 <tr><td>
 <script>
+
 var policyType = document.getElementById('001');
 var policiAmount = document.getElementById('002');
 var instalmentProcess = document.getElementById('003');
