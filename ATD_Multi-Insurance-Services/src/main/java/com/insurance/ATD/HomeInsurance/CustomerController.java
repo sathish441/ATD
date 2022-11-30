@@ -55,12 +55,23 @@ public class CustomerController {
 		return "homeconstructionpolicy";
 	}
 	@GetMapping(value="logincheck")
-	public ModelAndView logincheck(Homebean home2) {
+	public ModelAndView logincheck(Homebean home2,@RequestParam int PolicyNumber) {
 		ModelAndView mv = new ModelAndView("homeconstructionpolicyentry");
 		int Polnum = home2.getPolicyNumber();
 		boolean flag = repo.existsById(Polnum);
 		mv.addObject(home2);
+		Homebean homebean = repo.findById(PolicyNumber).orElse(new Homebean());
+		mv.addObject(homebean);
 		return mv;
+	}
+	@Autowired
+	CalculationRepo repo2;
+	@PostMapping(value="claimcalculation")
+	public String claimcalculation(Homecalculation calculation) {
+		repo2.save(calculation);
+		return "homeconstructionpolicy";
+				
+		
 	}
 		
 }

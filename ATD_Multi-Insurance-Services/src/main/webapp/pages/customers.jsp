@@ -9,8 +9,7 @@
 <body bgcolor="lightblue">
 	<h1>Add New Costumer</h1>
 	<form action="customers" method="post">
-		PolicyNumber:<input type="number" name="PolicyNumber">
-		Fullname:<input type="text" name="Fullname"> Age:<input
+				Fullname:<input type="text" name="Fullname"> Age:<input
 			type="number" name="Age"> Policyamount:<input type="number"
 			name="Policyamount"> Tenure:<input type="number"
 			name="Tenure"> Percentage:<input type="number"
