@@ -112,18 +112,11 @@ public class LifeController {
 		mav.setViewName("LifeUpdatedResult");
 		mav.addObject("result1", lb);
 		mav.addObject("result2", lb2);
-		
-	
-	return mav;
-}
-//	@PostMapping(value="fromWithdraw")
-//	public ModelAndView FromWithdrawPage(@RequestParam int sno) {
-//		ModelAndView mav = new ModelAndView("success");
-//		LifeBean lb = lifeRepo.deleteById(sno).orElse(new LifeBean());
-		
-		
-//		return null;
+		return mav;
 	}
+	}
+
+
 			
 	
 	
