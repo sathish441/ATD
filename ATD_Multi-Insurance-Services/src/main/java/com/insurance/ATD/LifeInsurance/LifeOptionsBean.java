@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Table(name="lifeOptionsBean")
 public class LifeOptionsBean {
 	@Id
-	@Column(name="s.no")
+	@Column(name="sno")
 	private int sno;
 	@Column(name="policyType")
 	private String policyType;
@@ -49,6 +49,12 @@ public class LifeOptionsBean {
 	}
 	public void setPolicyTenure(String policyTenure) {
 		this.policyTenure = policyTenure;
+	}
+	@Override
+	public String toString() {
+		return "policyNumber="+sno+"<br>"+"policyType=" + policyType+"<br>" + "policyAmountPerMonth="
+				+ policyAmountPerMonth +"<br>"+ "instalmentProcess=" + instalmentProcess+"<br>" + "policyTenure=" + policyTenure+"<br>"
+				+ "<br>";
 	}
 	
 	
