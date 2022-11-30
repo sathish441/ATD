@@ -1,6 +1,7 @@
 package com.insurance.ATD.ChildInsurance;
 
 import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -10,46 +11,59 @@ import javax.persistence.Table;
 public class ChildBean {
 	@Id
 	@Column(name= "PolicyNumber")
-	private int policynumber;
+	private int PolicyNumber;
 	@Column(name="FullName")
-	private int fullname;
+	private String FullName;
 	@Column(name="Age")
 	private int Age;
 	@Column(name="PolicyAmount")
-	private int policyamount;
+	private int PolicyAmount;
 	@Column(name="Tenure")
-	private int tenure;
-	public int getPolicynumber() {
-		return policynumber;
+	private int Tenure;
+	@Column(name="Percentage")
+	private int Percentage;
+	public int getPolicyNumber() {
+		return PolicyNumber;
 	}
-	public void setPolicynumber(int policynumber) {
-		this.policynumber = policynumber;
+	public void setPolicyNumber(int policyNumber) {
+		PolicyNumber = policyNumber;
 	}
-	public int getFullname() {
-		return fullname;
+	public String getFullName() {
+		return FullName;
 	}
-	public void setFullname(int fullname) {
-		this.fullname = fullname;
+	public void setFullName(String fullName) {
+		FullName = fullName;
 	}
 	public int getAge() {
 		return Age;
 	}
 	public void setAge(int age) {
-		this.Age = Age;
+		Age = age;
 	}
-	public int getPolicyamount() {
-		return policyamount;
+	public int getPolicyAmount() {
+		return PolicyAmount;
 	}
-	public void setPolicyamount(int policyamount) {
-		this.policyamount = policyamount;
+	public void setPolicyAmount(int policyAmount) {
+		PolicyAmount = policyAmount;
 	}
 	public int getTenure() {
-		return tenure;
+		return Tenure;
 	}
 	public void setTenure(int tenure) {
-		this.tenure = tenure;
+		Tenure = tenure;
+	}
+	public int getPercentage() {
+		return Percentage;
+	}
+	public void setPercentage(int percentage) {
+		Percentage = percentage;
+	}
+	@Override
+	public String toString() {
+		return "ChildBean [PolicyNumber=" + PolicyNumber + ", FullName=" + FullName + ", Age=" + Age + ", PolicyAmount="
+				+ PolicyAmount + ", Tenure=" + Tenure + ", Percentage=" + Percentage + "]";
 	}
 	
-
+	
 }
 
