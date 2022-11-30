@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 public class LifeBean {
 	@Id
-	@Column(name="s.no")
+	@Column(name="sno")
 	private int sno;
 	@Column(name="fullname")
 	private String fullname;
@@ -50,6 +50,11 @@ public class LifeBean {
 	}
 	public void setPermanentAddress(String permanentAddress) {
 		this.permanentAddress = permanentAddress;
+	}
+	@Override
+	public String toString() {
+		return "Policy Number=" + sno+"<br>" + "Fullname=" + fullname+"<br>" + "age=" + age+"<br>" + "dob=" + dob+"<br>"
+				+ " permanentAddress=" + permanentAddress + "<br>";
 	}
 	
 	

@@ -4,20 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>LifeUserPolicityResults</title>
+<title>Life policy Withdraw</title>
 </head>
 <body>
-<form align="center" action="userPolicyResults" method="post">
-<h2 style="color:blue">Policy Details</h2>
-<%
 
-
-%>
-
-
-
-
-
-</form>
 </body>
 </html>

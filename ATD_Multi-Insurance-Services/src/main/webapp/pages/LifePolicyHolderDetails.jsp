@@ -21,13 +21,12 @@ Full Name: <input type="text" placeholder="Enter Full Name" name="fullname"><br>
 Age: <input type="text" placeholder="Enter your Age" name="age"><br>
 DOB: <input type="date" placeholder="Enter DOB" name="dob"><br>
 Permanent Address: <input type="text" placeholder="Enter Address" name="permanentAddress">
-
-
-
-<br>
+<br><br>
 <input type="submit" value="Register">
-
 </form>
+
+
+
 </div>
 </body>
 </html>
